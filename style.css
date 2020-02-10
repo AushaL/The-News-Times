@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.main-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.article-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.layout-container {
+    border: 1px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.layout-row {
+    display: flex;
+    align-items: stretch;
+}
+
+.layout-cell {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+
+.layout-cell:last-child {
+    border-right: none;
+}
+
+.layout-cell-25 {
+    width: 25%;
+}
+
+.layout-cell-50 {
+    width: 50%;
+}
+
+.layout-cell-75 {
+    padding: 0;
+    width: 75%;
+}
+
+.bottom-row {
+    border-top: 3px solid black;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav-list li:first-child {
+    background-color: #ffeaa7;
+}
+
+.nav-list li:nth-child(2) {
+    background-color: #81ecec;
+}
+
+.nav-list li:nth-child(3) {
+    background-color: #55efc4;
+}
+
+.nav-list li:nth-child(4) {
+    background-color: #74b9ff;
+}
+
+.nav-list li:last-child {
+    background-color: #a29bfe;
+}
+
+.nav-list a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #666;
+    padding-left: 20px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
